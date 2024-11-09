@@ -1,1 +1,1 @@
-# hoc_python_coban
+# python-basic
