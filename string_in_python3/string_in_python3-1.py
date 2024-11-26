@@ -10,7 +10,7 @@ print(d)
 
 #Phương thức lower trong chuỗi string
 e = 'le nguyen minh'
-f = e.upper() #Tất cả các chữ đều được viết thường
+f = e.lower() #Tất cả các chữ đều được viết thường
 print(f)
 
 #Phương thức swapcase trong chuỗi string
