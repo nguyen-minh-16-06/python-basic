@@ -13,6 +13,12 @@ print(strC)
 a = strA[len(strA)-1]
 print(a)
 
+#Lấy độ dài của chuỗi nhập vào từ biến name
+name = input("Nhập tên của bạn vào: ")
+result = len(name)
+
+print(result)
+
 #VD về cắt chuỗi
 strB = 'NGUYENMINH'
 

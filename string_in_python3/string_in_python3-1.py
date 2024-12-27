@@ -1,17 +1,17 @@
 #Phương thức capitalize trong chuỗi string
-a = 'le nguyen minh'
-b = a.capitalize() #Đưa về một chuỗi với kí tự đầu viết hoa và các kí tự còn lại là chữ thường
-print(b)
+a = 'le nguyen Minh'
+b = a.capitalize() #
+print(f"Đưa về một chuỗi với kí tự đầu viết hoa và các kí tự còn lại là chữ thường: {b}")
 
 #Phương thức upper trong chuỗi string
 c = 'le nguyen minh'
-d = c.upper() #Tất cả các chữ đều được viết hoa
-print(d)
+d = c.upper()
+print(f"Tất cả các chữ đều được viết hoa: {d}")
 
 #Phương thức lower trong chuỗi string
-e = 'le nguyen minh'
-f = e.lower() #Tất cả các chữ đều được viết thường
-print(f)
+e = 'LE NGUYEN MINH'
+f = e.lower()
+print(f"Tất cả các chữ đều được viết thường: {f}")
 
 #Phương thức swapcase trong chuỗi string
 s = 'Le Nguyen Minh'

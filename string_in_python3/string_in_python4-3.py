@@ -1,11 +1,11 @@
 #Phương thức find trong chuỗi string
 a = 'LE NGUYEN MINH'
-b = a.find('NGUYEN') #Đưa về 1 giá trị số nguyên của nơi mà find tìm thấy chuỗi trên
+b = a.find('N') #Đưa về 1 giá trị số nguyên (chỉ số index) của nơi mà find tìm thấy kí tự
 print(b)
 
 #Phương thức rfind trong chuỗi string
 c = 'LE NGUYEN MINH'
-d = c.rfind('E') #Đưa về 1 giá trị số nguyên của nơi mà find tìm thấy chuỗi trên từ phải sang trái
+d = c.rfind('E') #Đưa về 1 giá trị số nguyên của nơi mà find tìm thấy chuỗi trên từ phải sang trái, trả về -1 nếu không tìm thấy chuỗi hoặc kí tự trong chuỗi
 print(d)
 
 #Phương thức index, rindex trong chuỗi string

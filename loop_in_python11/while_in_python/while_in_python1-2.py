@@ -9,11 +9,11 @@
 fen = []
 k_number = 1
 while True: # vòng lặp vô hạn vì giá trị True này là hằng nên ta không thể tác động được
-		if k_number % 2 == 0: # nếu k_number là một số chẵn
-			fen.append(k_number) # thêm giá trị của k_number vào list
-		if len(fen) == 5: # nếu list này đủ 5 phần tử
-			break # thì kết thúc vòng lặp
-		k_number += 1
+	if k_number % 2 == 0: # nếu k_number là một số chẵn
+		fen.append(k_number) # thêm giá trị của k_number vào list
+	if len(fen) == 5: # nếu list này đủ 5 phần tử
+		break # thì kết thúc vòng lặp
+	k_number += 1
 print(k_number)
 print(fen)
 

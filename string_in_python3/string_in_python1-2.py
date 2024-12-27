@@ -1,5 +1,4 @@
-'''Chuỗi trần sẽ không quan tâm đến escape sequence
-đó là thêm 1 chữ r vào trước chuỗi'''
+'''Chuỗi trần sẽ không quan tâm đến escape sequence đó là thêm 1 chữ r vào trước chuỗi'''
 print(r'Haiz, \neu 1 ngay nao do')
 
 #VD về toán tử cộng
