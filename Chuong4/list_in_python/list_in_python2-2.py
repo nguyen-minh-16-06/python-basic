@@ -1,24 +1,15 @@
-'''CÁC PHƯƠNG THỨC LIST TRONG PYTHON'''
+"""CÁC PHƯƠNG THỨC LIST TRONG PYTHON"""
 
-#Phương thức CLEAR trong list
-a = [1,2,3,4,5,6]
-b = a.clear() #Xoá hết các phần tử trong list => không cần tham số nào truyền vào
-# Không có giá trị nào trả về, nó chỉ làm sạch list
-# a là 1 list rỗng []
+# Phương thức DEL trong list
+a = [1, 2, 3, 4]
+del a[1]  # Xoá 1 phần tử theo index trong list
 print(a)
 
-#Phương thức APPEND trong list
-c = [1,2,3]
-print(c)
-c.append([4,5]) #Được dùng để thêm 1 đối tượng vào một danh sách
-# Đối tượng này có thể thuộc bất kì kiểu dữ liệu, chuỗi, số nguyên, boolean
-# Thậm chí là 1 danh sách khác.
+b = [1, 2, 3, 4]
+del b[1:3]  # Xoá các phần tử trong 1 phạm vi chỉ định => xoá [2] và [3]
+print(b)
+
+c = [1, 2, 3, 4]
+del c[:]  # Xoá toàn bộ các phần tử trong list
 print(c)
 
-#Phương thức EXTEND trong list
-s = [1,2,3]
-print(s)
-s.extend([4,5]) #Hoạt động trên các đối tương có thẻ lặp và nối thêm mọi mục
-# trong lần lặp vào danh sách.
-# Sử dụng toán tử (+) không tương đương với sử dụng phương thức extend.
-print(s)

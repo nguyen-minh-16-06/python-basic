@@ -8,6 +8,8 @@
 
 # VD 1: for lồng for
 # Xài range(1, 4) tương tự với range(3)
+# Giống nhau: Lặp qua 3 hàng với range(1, 4) chạy từ 1 -> 3, còn range(3) chạy từ 0 -> 2
+# Khác nhau: Với range(1, 4) bắt đầu từ 1, còn range(3) chạy từ 0
 for i in range(3):
     for j in range(1, 10):
         print(j, end=" ")

@@ -1,4 +1,4 @@
-#Constuctor/Comprehension tuple
+# Constuctor/Comprehension tuple
 tup = (i for i in range(10) if i % 2 == 0)
 # Giống với list constructor a = tuple('MINH') => print(a) = ('M','I','N','H')
 a = tuple(tup)
