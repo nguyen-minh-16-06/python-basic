@@ -1,4 +1,5 @@
 # CÁC TOÁN TỬ VỀ TUPLE
+# Các toán tử của tuple GIỐNG với các toán tử của chuỗi
 
 # Toán tử cộng
 tup = (1, 5, 9)

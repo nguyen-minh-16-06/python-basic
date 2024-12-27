@@ -22,17 +22,21 @@ print(c)
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Lấy từng phần tử trong list
-fruits = ["apple", "orange", "banana", "coconut"]
+fruits = ["apple", "orange", "banana", "coconut", "pineapple"]
 print(fruits[3])
 # Mỗi giá trị trong list được coi là 1 phần tử, và nếu cố gắng truy xuất một phần tử nằm ngoài
 # thì sẽ báo lỗi list index out of range (tức là nằm ngoài phạm vi trong list)
 # print(fruits[4])
 
+# Truy xuất toàn bộ phần tử:
+print(fruits[:])
+
 # Nếu muốn truy xuất 3 phần tử đầu tiên thì sử dụng:
-print(fruits[0:3])
+print(fruits[0:4])
 
 # Thậm chí không cần thiết số 0 ở trước dấu 2 chấm:
-print(fruits[:3])
+print(fruits[:4])
+print(fruits[:-1])
 
 # Tương tự với tham số ở sau:
 print(fruits[::2])
